@@ -15,6 +15,14 @@ function changeCircleColor() {
     circle.style.backgroundColor = selectedColor;
 }
 
+function toggleCircle() {
+    if (circle.style.display === 'none') {
+        circle.style.display = 'block';
+    } else {
+        circle.style.display = 'none';
+    }
+}
+
 widthSlider.addEventListener('input', updateCircleSize);
 heightSlider.addEventListener('input', updateCircleSize);
 

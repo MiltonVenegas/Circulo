@@ -1,0 +1,16 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.container {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.color-picker {
+    margin-top: 20px;
+}
